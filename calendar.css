@@ -1,0 +1,58 @@
+#calendar {
+    font-family: Arial, sans-serif;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.month ul {
+    margin: 0;
+    padding: 10px 0;
+    list-style-type: none;
+    text-align: center;
+    background: #ddd;
+}
+
+.month ul li {
+    display: inline-block;
+    margin: 0 5px;
+    color: #555;
+}
+
+.weekdays {
+    margin: 0;
+    padding: 10px 0;
+    list-style-type: none;
+    text-align: center;
+    background: #ddd;
+}
+
+.weekdays li {
+    display: inline-block;
+    width: 13%;
+    padding: 10px 0;
+    color: #555;
+}
+
+.days {
+    margin: 0;
+    padding: 10px 0;
+    list-style-type: none;
+    text-align: center;
+}
+
+.days li {
+    display: inline-block;
+    width: 13%;
+    padding: 10px 0;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    color: #555;
+}
+
+#booking-form {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
